@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #d3d3d3, #9e9e9e);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Container biar jadi card */
+.container {
+    background: white;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* paragraf */
+p {
+    line-height: 1.6;
+}
+
+/* gambar */
+.foto {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+/* hover effect biar fancy */
+.foto:hover {
+    transform: scale(1.05);
+}
+
+/* list */
+ul, ol {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* caption */
+.caption {
+    text-align: center;
+    margin-bottom: 20px;
+}

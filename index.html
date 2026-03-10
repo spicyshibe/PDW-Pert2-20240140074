@@ -4,32 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ini itu praktikum 2</title>
+
+    <!-- 1. CSS EKSTERNAL: Menghubungkan file style.css -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- 2. CSS INTERNAL: Menulis CSS langsung di dalam tag <style> -->
+    <style>
+        h1 {
+            color: #2c3e50; /* Warna biru tua */
+            text-align: center; /* Teks rata tengah */
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        
+        .caption {
+            font-style: italic;
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Haloo ini percobaan website </h1>
+
+<div class="container">
+<!-- 3. CSS INLINE: Menulis style langsung di dalam tag HTML (style="...") -->
+    <h1>Haloo ini percobaan website</h1>
+    
     <p>Ini NYOBA NYOBA LAGIIII</p>
-    <p>ini coba lagi aku gatau ini kek gimana jadinya euy </p>
-    <p></p>
-    <p>jadi ini adalah iklan legend jogja, ini orang nya legend sekali namanya anton photo.</p>
+    
+    <p>ini coba lagi aku gatau ini kek gimana jadinya euy</p>
+
+    <!-- Contoh CSS INLINE diterapkan di sini -->
+    <p style="color: red; font-weight: bold; font-size: 1.2em;">
+        jadi ini adalah iklan legend jogja, ini orang nya legend sekali namanya anton photo.
+    </p>
+
     <p>ini orang sakti bener</p>
 
-    <img src="/images (1).jpeg" alt="aduh foto nya dimana eh">
+    <!-- Gambar 1 dengan Deskripsi -->
+    <img src="/images (1).jpeg" alt="aduh foto nya dimana eh" class="foto"> 
+    <p class="caption">Deskripsi Gambar 1: Ini adalah foto yang sedang dicari.</p>
 
     <p> oke jadi ini foto kucin aku</p>
 
-    <img src="/F26D9B24-8267-4A34-801D-C20313A44951 Small.jpeg" alt="dimana ya eh">
+    <!-- Gambar 2 dengan Deskripsi -->
+    <img src="/F26D9B24-8267-4A34-801D-C20313A44951 Small.jpeg" alt="dimana ya eh" class="foto"> <!--inii class kek buat nge konekin ke css ext-->
+    <p class="caption">Deskripsi Gambar 2: Ini adalah foto kucing kesayanganku.</p>
 
     <p>ini list poin</p>
     <ul>
-        <li>Item 1</li>
-        <li>item 2</li>
-
+        <li>Nama: Rafie Rasydan Wahyudi</li>
+        <li>NIM: 20240140074</li>
     </ul>
 
     <p>ini list angka</p>
     <ol>
-        <li>item 1</li>
-        <li>item 2</li>
+        <li>Nama: Rafie Rasydan Wahyudi</li>
+        <li>NIM: 20240140074</li>
     </ol>
+
 </body>
+</div>
+    
 </html>
